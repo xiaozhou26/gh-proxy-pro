@@ -5,10 +5,9 @@
 const ASSET_URL = 'https://gh-proxy-9oi.pages.dev/'
 // 前缀，如果自定义路由为example.com/gh/*，将PREFIX改为 '/gh/'，注意，少一个杠都会错！
 const PREFIX = '/'
-
 const Config = {
     jsdelivr: 1,
-    cnpmjs: 1
+    gitclone: 1
 }
 
 /** @type {RequestInit} */
@@ -105,7 +104,7 @@ async function fetchHandler(e) {
     }
     // cfworker 会把路径中的 `//` 合并成 `/`
     path = urlObj.href.substr(urlObj.origin.length + PREFIX.length).replace(/^https?:\/+/, 'https://')
-    if (path.search(exp1) === 0 || path.search(exp5) === 0 || path.search(exp6) === 0 || !Config.cnpmjs && (path.search(exp3) === 0 || path.search(exp4) === 0)) {
+    if (path.search(exp1) === 0 || path.search(exp5) === 0 || path.search(exp6) === 0 || !Config.gitclone && (path.search(exp3) === 0 || path.search(exp4) === 0)) {
         const newUrl = `${getNextUrl.next().value}/${path}`;
         return Response.redirect(newUrl, 302);
     }else if (path.search(exp2) === 0) {
