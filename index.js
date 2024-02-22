@@ -66,6 +66,7 @@ function checkUrl(u) {
     }
     return false
 }
+// 创建一个生成器函数，用于生成随机的GitHub加速网站目标URL
 const targetUrls = TARGET_URLS.split(',');
 
 function* urlGenerator() {
@@ -78,6 +79,8 @@ function* urlGenerator() {
 
 
 const getNextUrl = urlGenerator();
+
+// 创建一个生成器函数，用于生成随机的GitHub URL
 
 const GHUrls = GH_URLS.split(',');
 
