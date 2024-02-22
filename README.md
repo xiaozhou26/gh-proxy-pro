@@ -32,6 +32,7 @@
 
 通过以上步骤，你应该已经成功部署了自己的 GH-Proxy 服务。
 ### 鸣谢
-raw加速的国内开源大佬，https://github.com/54ayao/Chinajsdelivr。为我们提供了国内加速服务，请大家合规使用，感谢。
+raw加速的国内开源大佬，https://github.com/54ayao/Chinajsdelivr
+为我们提供了国内加速服务，请大家合规使用，感谢。
 
 （参考链接：[https://github.com/hunshcn/gh-proxy/](https://github.com/hunshcn/gh-proxy/)）
