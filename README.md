@@ -15,7 +15,7 @@
 
 ### 第三步：部署代码
 
-在这一步，你将需要 `index.js` 的代码。这段代码是 GH-Proxy 服务的核心，负责处理所有的请求和转发。你可以在 GH-Proxy 的官方 GitHub 仓库中找到这段代码（参考链接：[https://github.com/hunshcn/gh-proxy/](https://github.com/hunshcn/gh-proxy/)）。
+在这一步，你将需要 `index.js` 的代码。这段代码是 GH-Proxy 服务的核心，负责处理所有的请求和转发。你可以在 GitHub 仓库中找到这段代码。
 
 将 `index.js` 的内容复制到 Cloudflare Workers 编辑器的左侧代码框中。检查无误后，点击“Save and Deploy”。如果一切顺利，你将在右侧预览窗口看到服务的首页。
 
@@ -31,3 +31,5 @@
 ### 结语
 
 通过以上步骤，你应该已经成功部署了自己的 GH-Proxy 服务。
+
+（参考链接：[https://github.com/hunshcn/gh-proxy/](https://github.com/hunshcn/gh-proxy/)）
