@@ -1,7 +1,7 @@
 # gh-proxy-pro
 # 免责声明：本项目仅做学习使用，如果使用到您的网站，您不满意，请联系我删除。
 
-## 项目优点：几乎不使用woker的流量，woker仅仅做重定向的工作，极小减轻了本地或者woker的压力
+## 项目优点：几乎不使用worker的流量，worker仅仅做重定向的工作，极小减轻了本地或者worker的压力
 
 ## 在 Cloudflare Workers 上部署 GH-Proxy-Pro 的指南
 
